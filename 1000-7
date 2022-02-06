@@ -1,3 +1,9 @@
+def out_red(text):
+
+    print("\033[31m{}".format(text))
+
+out_red("напиши что нибудь")
+
 a=input()
 
 import time
@@ -6,6 +12,20 @@ i=1000
 
 while i>0:
 
-	i=i-7	print("1000-7=",(i))
+	i=i-7
+
+	print("1000-7=",(i))
 
 	time.sleep(0.1)
+
+	
+
+import time
+
+txt = 'я....гуль'
+
+for i in txt:  # я.....гуль
+
+    time.sleep(0.2)
+
+    print(i, end='', flush=True)
