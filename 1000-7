@@ -1,0 +1,11 @@
+a=input()
+
+import time
+
+i=1000
+
+while i>0:
+
+	i=i-7	print("1000-7=",(i))
+
+	time.sleep(0.1)
